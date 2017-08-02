@@ -1,7 +1,4 @@
 import React from "react";
-import Helmet from "react-helmet";
-
-import config from "../../../../config";
 
 function HomeRoute() {
   return (
@@ -11,7 +8,7 @@ function HomeRoute() {
           <div className="header-content-inner">
             <h1 id="homeHeading">LOW LATENCY LIVE VIDEO STREAMING</h1>
             <p>LOW LATENCY LIVE VIDEO STREAMING</p>
-            <a href="#about" className="btn btn-primary btn-xl page-scroll">
+            <a href="/about" className="btn btn-primary btn-xl page-scroll">
               Find Out More
             </a>
           </div>

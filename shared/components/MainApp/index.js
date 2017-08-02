@@ -13,6 +13,9 @@ import Footer from "./Footer";
 
 import AsyncHomeRoute from "./AsyncHomeRoute";
 import AsyncAboutRoute from "./AsyncAboutRoute";
+import AsyncTechnologyRoute from "./AsyncTechnologyRoute";
+import AsyncDemoRoute from "./AsyncDemoRoute";
+import AsyncContactRoute from "./AsyncContactRoute";
 
 function MainApp() {
   return (
@@ -158,6 +161,9 @@ function MainApp() {
         <Switch>
           <Route exact path="/" component={AsyncHomeRoute} />
           <Route path="/about" component={AsyncAboutRoute} />
+          <Route path="/technology" component={AsyncTechnologyRoute} />
+          <Route path="/contact" component={AsyncContactRoute} />
+          <Route path="/demo" component={AsyncDemoRoute} />
           <Route component={Error404} />
         </Switch>
       </div>

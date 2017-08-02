@@ -14,9 +14,7 @@ function Header() {
             <span className="sr-only">Toggle navigation</span> Menu{" "}
             <i className="fa fa-bars" />
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            Streem
-          </a>
+          Streem
         </div>
         <div
           className="collapse navbar-collapse"
@@ -27,22 +25,17 @@ function Header() {
               <a href="/about">About</a>
             </li>
             <li>
-              <a className="page-scroll" href="#services">
-                Next-Gen Video
-              </a>
-            </li>
-            <li>
-              <a className="page-scroll" href="#portfolio">
+              <a className="page-scroll" href="/technology">
                 Technology
               </a>
             </li>
             <li>
-              <a className="page-scroll" href="#contact">
-                Partners
+              <a className="page-scroll" href="/contact">
+                Contact
               </a>
             </li>
             <li>
-              <a className="page-scroll" href="#demo">
+              <a className="page-scroll" href="/demo">
                 Demo
               </a>
             </li>
