@@ -1,5 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
+import Row from "react-bootstrap/lib/Row";
 
 function ContactRoute() {
   return (
@@ -7,9 +8,15 @@ function ContactRoute() {
       <Helmet>
         <title>Contact</title>
       </Helmet>
-      <a href="mailto:info@streemtechnologies.com" title="contact-us">
-        Contact Us
-      </a>
+      <Row>
+        <a
+          href="mailto:info@streemtechnologies.com"
+          title="contact-us"
+          className="btn btn-default"
+        >
+          Contact Us
+        </a>
+      </Row>
     </section>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 import Col from "react-bootstrap/lib/Col";
 import Row from "react-bootstrap/lib/Row";
-import Grid from "react-boostrap/lib/Grid";
+import Grid from "react-bootstrap/lib/Grid";
 
 function HomeRoute() {
   return (
