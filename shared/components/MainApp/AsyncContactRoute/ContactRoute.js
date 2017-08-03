@@ -7,7 +7,9 @@ function ContactRoute() {
       <Helmet>
         <title>Contact</title>
       </Helmet>
-      Get in touch in the numerous ways below
+      <a href="mailto:info@streemtechnologies.com" title="contact-us">
+        Contact Us
+      </a>
     </section>
   );
 }

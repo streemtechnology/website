@@ -1,5 +1,9 @@
 import React from "react";
 
+import Col from "react-bootstrap/lib/Col";
+import Row from "react-bootstrap/lib/Row";
+import Grid from "react-boostrap/lib/Grid";
+
 function HomeRoute() {
   return (
     <div>
@@ -16,14 +20,14 @@ function HomeRoute() {
       </header>
 
       <section className="bg-primary" id="about">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-8 col-lg-offset-2 text-center">
+        <Grid>
+          <Row>
+            <Col lg={4} md={8} className="text-center">
               <h2 className="section-heading">
                 NEW VIDEO TECH ISN'T READY FOR STREAMING.
               </h2>
-            </div>
-            <div className="col-lg-4 col-md-8 text-center">
+            </Col>
+            <Col lg={4} md={8} className="text-center">
               <div className="service-box">
                 <i className="fa fa-4x fa-newspaper-o text-primary sr-icons" />
                 <h3>Latency</h3>
@@ -35,8 +39,8 @@ function HomeRoute() {
                   more demanding VR video streams such as 6K or 8K.
                 </p>
               </div>
-            </div>
-            <div className="col-lg-4 col-md-8 text-center">
+            </Col>
+            <Col lg={4} md={8} className="text-center">
               <div className="service-box">
                 <i className="fa fa-4x fa-newspaper-o text-primary sr-icons" />
                 <h3>Resolution Demand</h3>
@@ -49,8 +53,8 @@ function HomeRoute() {
                   quality.
                 </p>
               </div>
-            </div>
-            <div className="col-lg-4 col-md-8 text-center">
+            </Col>
+            <Col lg={4} md={8} className="text-center">
               <div className="service-box">
                 <i className="fa fa-4x fa-newspaper-o text-primary sr-icons" />
                 <h3>Poor UX</h3>
@@ -63,9 +67,9 @@ function HomeRoute() {
                   causing nausea. This causes poor experience.{" "}
                 </p>
               </div>
-            </div>
-          </div>
-        </div>
+            </Col>
+          </Row>
+        </Grid>
       </section>
     </div>
   );
