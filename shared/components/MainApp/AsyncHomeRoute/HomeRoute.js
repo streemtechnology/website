@@ -10,8 +10,8 @@ function HomeRoute() {
       <header>
         <div className="header-content">
           <div className="header-content-inner">
-            <h1 id="homeHeading">LOW LATENCY LIVE VIDEO STREAMING</h1>
-            <p>LOW LATENCY LIVE VIDEO STREAMING</p>
+            <h1>ADAPTIVE LATENCY AND BANDWIDTH OPTIMISATION</h1>
+            <p>ADAPTIVE LATENCY AND BANDWIDTH OPTIMISATION</p>
             <a href="/about" className="btn btn-primary btn-xl page-scroll">
               Find Out More
             </a>
@@ -22,49 +22,70 @@ function HomeRoute() {
       <section className="bg-primary" id="about">
         <Grid>
           <Row>
-            <Col lg={4} md={8} className="text-center">
+            <Col md={3} className="text-center">
               <h2 className="section-heading">
                 NEW VIDEO TECH ISN'T READY FOR STREAMING.
               </h2>
             </Col>
-            <Col lg={4} md={8} className="text-center">
+          </Row>
+
+          <Row>
+            <Col md={3} className="text-center">
               <div className="service-box">
                 <i className="fa fa-4x fa-newspaper-o text-primary sr-icons" />
                 <h3>Latency</h3>
                 <p className="text-faded">
-                  {" "}Wired and wireless networks are capacity-constrained. 4K
-                  UHD VR video uses 30-40 Mbps, yet even the best
-                  fiber-optic, DOCSIS 3.x, 4G+/5G networks can only achieve ~20
-                  Mbps. This will only get worse as newer VR camera rigs output
-                  more demanding VR video streams such as 6K or 8K.
+                  Wired and wireless networks are capacity-constrained. 4K UHD
+                  VR video uses 30-40 Mbps, yet even the best fiber-optic,
+                  DOCSIS 3.x, 4G+/5G networks can only achieve ~20 Mbps.
+                  Emergent technogolgies such as VR and autonomous vehicles are
+                  putting more pressure on these capacity-restricted networks,
+                  and making them more expensive to manage and maintain.
                 </p>
               </div>
             </Col>
-            <Col lg={4} md={8} className="text-center">
+            <Col md={3} className="text-center">
               <div className="service-box">
                 <i className="fa fa-4x fa-newspaper-o text-primary sr-icons" />
                 <h3>Resolution Demand</h3>
                 <p className="text-faded">
-                  {" "}To achieve the fully immersive experience that 360 VR,
-                  4K, 6K and even 8K resolution can bring, there is a lot of
-                  work to be done to make these formats functional on the
-                  hardware capacity of today's viewing devices and existing
-                  telecoms network bandwidth speeds, without sacrificing
-                  quality.
+                  As resolutions, such as 360 VR, 4K, 6k and 8k resolutions
+                  start to be used, tools need to be used to reduce the pressure
+                  on networks and improve the end user's experience. These
+                  formats need to work on today's viewing devices, over existing
+                  telecoms networks, without sacrificing quality.
                 </p>
               </div>
             </Col>
-            <Col lg={4} md={8} className="text-center">
+            <Col md={3} className="text-center">
               <div className="service-box">
                 <i className="fa fa-4x fa-newspaper-o text-primary sr-icons" />
                 <h3>Poor UX</h3>
                 <p className="text-faded">
-                  {" "}Due to huge file sizes and streaming demands, existing
-                  360 VR and high resolution video can only be played on wired
-                  headsets with in-built processing power. For the web, and for
-                  untethered headsets, videos are pixellated, suffer huge
-                  buffering and startup delays, and have streaming latency
-                  causing nausea. This causes poor experience.{" "}
+                  Nothing's worse for a user than firing up a new device, only
+                  to find the network can't handle the demands of the streamed
+                  data. AR and VR require hude file sizes and on an untethered
+                  device users are left waiting for visuals to load, resulting
+                  in nausea and sub-par experience. Excessive bandwidth and
+                  latency can be the difference between a satisfied user and a
+                  disgruntled one.
+                </p>
+              </div>
+            </Col>
+            <Col md={3}>
+              <div className="service-box">
+                <i className="fa fa-4x fa-newspaper-o text-primary sr-icons" />
+
+                <h3>Critical Path Technologies</h3>
+                <p className="text-faded">
+                  Increasingly, newer technologies are relying on live video
+                  data to tell operators about their environment and use cloud
+                  computing to make decisions about how to act. Even at the
+                  edge, the time it takes to process a high definition video can
+                  be critical. Our adaptive algorithms will ensure the
+                  essential, critical-path data, will be sent at the best
+                  resolution while reducing bandwidth and optimising against
+                  latency for the less important pieces.
                 </p>
               </div>
             </Col>

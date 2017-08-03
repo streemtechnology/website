@@ -154,7 +154,7 @@ function MainApp() {
           type="text/css"
         />
 
-        <link rel="stylesheet" href="/css/creative.min.css" />
+        <link rel="stylesheet" href="/css/creative.css" />
       </Helmet>
       <Header />
       <div>
