@@ -43,6 +43,7 @@
   "homepage": "https://github.com/ctrlplusb/react-universally#readme",
   "dependencies": {
     "app-root-dir": "1.0.2",
+    "body-parser": "^1.17.2",
     "colors": "1.1.2",
     "compression": "1.7.0",
     "cross-env": "5.0.1",
@@ -53,6 +54,9 @@
     "modernizr": "3.5.0",
     "normalize.css": "7.0.0",
     "offline-plugin": "4.8.3",
+    "passport": "^0.3.2",
+    "passport-custom": "^1.0.5",
+    "passport-local": "^1.0.0",
     "prop-types": "15.5.10",
     "react": "15.6.1",
     "react-async-bootstrapper": "1.1.1",
