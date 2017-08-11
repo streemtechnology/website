@@ -3,6 +3,7 @@ import passport from "passport";
 import bodyParser from "body-parser";
 import Strategy from "passport-custom";
 import compression from "compression";
+import proxyRoutes from "./proxy-routes";
 
 const BIG_KEY = "the-big-key";
 
@@ -39,6 +40,10 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 app.use(compression());
+
+// set up the proxy routes
+proxyRoutes(app);
+
 app.get("/api", (req, res) =>
   res.json({
     default: "Streem API v0.0.1",
