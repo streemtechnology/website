@@ -104,17 +104,11 @@ const values = {
   },
 
   additionalNodeBundles: {
-    /*
     apiServer: {
-      srcEntryFile: './api/index.js',
-      srcPaths: [
-        './api',
-        './shared',
-        './config',
-      ],
-      outputPath: './build/api',
+      srcEntryFile: "./api/index.js",
+      srcPaths: ["./api", "./shared", "./config"],
+      outputPath: "./build/api"
     }
-    */
   },
 
   plugins: {
